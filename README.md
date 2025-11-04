@@ -603,7 +603,7 @@ az group delete --name RG-tp-app-serverless --yes --no-wait
 Étudiant en Mastère 1 – Expert Cloud, Sécurité et Infrastructure  
 Ynov Bordeaux – Promotion 2025
 
-📧 Contact : [votre-email@example.com]  
+📧 Contact : [kingston-run]  
 🔗 GitLab : [https://gitlab.com/ynov-infra-m1/tp-app-serverless](https://gitlab.com/ynov-infra-m1/tp-app-serverless)
 
 ---
