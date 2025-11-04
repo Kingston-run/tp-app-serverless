@@ -1,0 +1,11 @@
+{
+  "routes": [
+    {
+      "route": "/api/*",
+      "rewrite": "https://tp-apim-serverless.azure-api.net/api/{*}"
+    }
+  ],
+  "navigationFallback": {
+    "rewrite": "/index.html"
+  }
+}
