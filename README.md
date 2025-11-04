@@ -552,6 +552,7 @@ Access-Control-Allow-Origin: https://stom1infra.z1.web.core.windows.net
   Access-Control-Allow-Origin: https://stom1infra.z1.web.core.windows.net
   ```
 - Aucune erreur CORS dans l'onglet **Console**
+![Schéma TP](result.png.png)
 
 ---
 
