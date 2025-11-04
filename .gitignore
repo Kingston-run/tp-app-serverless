@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.env
+*.env
+
+# Logs
+*.log
+
+# OS/Editeur fichiers temporaires
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Docker
+*.tar
+*.bak
+
+# Node/npm (si jamais un build JS plus tard)
+node_modules/
+npm-debug.log*
+
+# Tests et coverage
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Azure/CLI
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Build / artefacts divers
+dist/
+build/
+*.egg-info/
+
+# Fichiers secrets, config locale front ou back
+secrets.json
+config_local.py
+
+# other
+cmd.txt
+endpoint.txt

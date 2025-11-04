@@ -1,0 +1,22 @@
+openapi: 3.0.1
+info:
+  title: TP Serverless API
+  description: Exemple d’API Flask TP exposée via Azure Container Apps
+  version: 1.0.0
+servers:
+  - url: https://tp-app-serverless.agreeablefield-d4e29a2d.switzerlandnorth.azurecontainerapps.io
+paths:
+  /hello:
+    get:
+      summary: Retourne un message de bienvenue
+      responses:
+        '200':
+          description: Message de bienvenue renvoyé avec succès
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Hello, world!"
